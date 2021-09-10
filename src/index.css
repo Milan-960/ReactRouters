@@ -14,7 +14,6 @@ body {
 }
 
 main {
-  margin-top: 5rem;
   text-align: center;
 }
 
@@ -23,4 +22,15 @@ h2,
 h3,
 p {
   color: #071e3b;
+}
+
+img {
+  width: -webkit-fill-available;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+  img {
+    display: none;
+  }
 }

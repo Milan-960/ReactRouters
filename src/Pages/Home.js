@@ -1,9 +1,10 @@
 import { Route } from "react-router-dom";
+import img from "../Assets/img.jpg";
 
 const home = () => {
   return (
     <section>
-      <h1> Welcome, This is our home page</h1>
+      <img src={img} alt="Welcome" />
       <Route path="/home/newuser">
         <p>Welcome, New User!!</p>
       </Route>
